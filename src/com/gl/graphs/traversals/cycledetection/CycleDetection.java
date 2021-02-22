@@ -33,7 +33,7 @@ public class CycleDetection {
       }
       if(!neighbour.isVisited()){
         System.out.println("Visiting neighbour vertex : "+ neighbour + " recursively");
-        neighbour.setVisited(true);
+        neighbour.setBeingVisited(true);
         detectCycle(neighbour);
       }
     }

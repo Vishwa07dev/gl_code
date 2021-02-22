@@ -21,7 +21,7 @@ public class MazePathFinder {
   private int sRow ;
   private int sCol ;
 
-  public MazePathFinder(int[][] mazePath, boolean[][] visited , int sRow , int sCol) {
+  public MazePathFinder(int[][] mazePath, boolean[][] visited , int sRow , int saCol) {
     this.mazePath = mazePath;
     this.visited = visited;
     this.sRow = sRow ;

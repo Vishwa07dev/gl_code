@@ -19,9 +19,9 @@ public class Huffmancoding {
 
   public static void main(String[] args) {
 
-    int n = 7;
-    char[] charArray = { 'p', 'q', 's', 't', 'u', 'v' ,'w'};
-    int[] charfreq = { 5, 19, 22, 23, 26, 55 ,118 };
+    int n = 5;
+    char[] charArray = { 'p', 't', 'u', 'v' ,'w'};
+    int[] charfreq = { 5, 19, 26, 55 ,118 };
 
     PriorityQueue<HuffmanNode> q
         = new PriorityQueue<HuffmanNode>(n, new HuffmanComparator());
