@@ -24,4 +24,6 @@ interface CovidImmunable{
 
   public void getCovidVaccine();
 
+
+
 }
